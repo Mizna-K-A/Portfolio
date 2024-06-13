@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <!-- nav -->
+   <div id="Container">
+        <nav>
+            <img class="logo" src="./images/working.jpg" alt="logo">
+            <ul>
+                <li class="list-items"> <a class="links" href="#home">HOME</a> </li>
+                <li class="list-items"> <a class="links"  href="#about">ABOUT</a> </li>
+                <li class="list-items"> <a class="links"  href="#skills">SKILLS</a> </li>
+                <li class="list-items"> <a class="links"  href="#contact">CONTACT</a> </li>
+            </ul>
+        </nav>
+        <!-- Home -->
+        <section id="home">
+          <div class="home-contents">
+            <h1 id="username">I'm <span id="lname">Mizna</span></h1>
+            <p id="user-details">This is my official portfolio website to describe all  <br>
+              Details and work experiens in web development</p>
+            <a id="download" href="./1.pdf" download>DOWNLOAD CV</a>
+          </div>
+          <div class="home-images">
+          <img id="shape" class="group1" src="./images/shape.png" alt="shape">
+          <img id="girl" class="group1" src="./images/girl.png" alt="girl">
+          </div>
+   </section>
+   <!-- About -->
+   <section id="about">
+    <div class="section-head">
+      <h2 class="main-head">About Me</h2>
+      <span class="subhead">Introduction</span>
+    </div>
+    <div class="about-body">
+      <div data-aos="zoom-out-right" class="about-img">
+        <img src="./images/about.avif" alt="about">
+      </div>
+      <div class="about-contents">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla alias neque impedit minus et veritatis deleniti, voluptatum distinctio sequi molestias quibusdam saepe labore fugit voluptate explicabo, tempore assumenda ad. Nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci consectetur pariatur cum cupiditate rerum et impedit iste numquam sed. Ab consequatur laboriosam non debitis explicabo deserunt sunt omnis nam commodi?</p>
+        <div class="informations">
+          <div class="info-box">
+            <i class="fa-solid fa-user"></i>
+            <span>Mizna</span>
+          </div>
+          <div class="info-box">
+            <i class="fa-solid fa-phone"></i>
+            <span>7902355627</span>
+          </div>
+          <div class="info-box">
+            <i class="fa-solid fa-envelope"></i>
+            <span>mizna.k.ameer@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- skills -->
+   <section id="skills">
+    <div class="section-head">
+      <h2 class="main-head">Skills</h2>
+      <span class="subhead">My Skills</span>
+    </div>
+    <div class="skill-content">
+      <div class="progress-bars">
+        <!-- html -->
+        <div class="bar">
+          <h3 class="bar-head">HTML</h3>
+          <span class="bar-percent">90%</span>
+          <div class="base-bar"></div>
+          <div class="base-bar html-bar"></div>
+        </div>
+        <!-- css -->
+        <div class="bar">
+          <h3 class="bar-head">CSS</h3>
+          <span class="bar-percent">85%</span>
+          <div class="base-bar"></div>
+          <div class="base-bar css-bar"></div>
+        </div>
+        <!-- js -->
+        <div class="bar">
+          <h3 class="bar-head">JS</h3>
+          <span class="bar-percent">89%</span>
+          <div class="base-bar"></div>
+          <div class="base-bar js-bar"></div>
+        </div>
+        <!-- react -->
+        <div class="bar">
+          <h3 class="bar-head">REACT</h3>
+          <span class="bar-percent">86%</span>
+          <div class="base-bar"></div>
+          <div class="base-bar react-bar"></div>
+        </div>
+      </div>
+    <div data-aos="zoom-out-left" class="skill-img">
+      <img id="myskill" src="https://as2.ftcdn.net/v2/jpg/05/17/59/83/1000_F_517598354_mcdvOLXNMYCx4rJTFcJXdMjbb5T1nXex.jpg" alt="skill">
+    </div>
+  </div>
+   </section>
+   <!-- contact -->
+   <section id="contact">
+    <div class="section-head">
+      <h2 class="main-head">Contact Us</h2>
+      <span class="subhead">My Contacts</span>
+    </div>
+    <div class="iconcollections">
+      <div class="icon">
+        <a href="https://in.linkedin.com/" target="_blank">
+          <i class="fa-brands fa-linkedin-in brands"></i>
+        </a>
+      </div>
+      <div class="icon">
+        <a href="https://github.com/"><i class="fa-brands fa-github brands"></i></a>
+      </div>
+      <div class="icon">
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram brands"></i></a>
+      </div>
+      <div class="icon">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f brands"></i></a>
+      </div>
+      <div class="icon">
+        <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter brands"></i></a>
+      </div>
+      <div class="icon">
+        <a href="https://mail.google.com/mail/"><i class="fa-solid fa-envelope brands"></i></a>
+      </div>
+    </div>
+   </section>
+   <!-- footer -->
+   <footer>
+    <p id="copyright">&copy; My Portfolio website 2024, All Rights Reserved to &reg; Mizna</p>
+    <div class="icon uparrow">
+      <a href="#Container"><i class="fa-solid fa-angle-up brands"></i></a>
+   </footer>
+  </div>
+</body>
+</html>
+
+<!-- netlify and wercel are deploy websites -->
+<!-- animation libraries :
+     animate.style - used to animate perticular element it work at opening time
+     aos - other one for it work the page scroll down -->
+     <!-- animation work only in block elements -->
